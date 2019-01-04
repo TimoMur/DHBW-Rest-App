@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: RestApp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Timo
+Implementation-Vendor-Id: de.dhbw
+Build-Jdk: 1.8.0_121
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/RestApp
+Created-By: Maven Integration for Eclipse
+
