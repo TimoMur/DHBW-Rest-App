@@ -10,9 +10,10 @@ public class ResponseMessage {
 
 		long time = System.currentTimeMillis();
 
+		
 		this.isPrime = true;
 		
-		for (int i = 2; i < number; i++) {
+		for (long i = 2; i < number; i++) {
 			if ((number % i) == 0)
 				this.isPrime = false;
 		}
@@ -22,7 +23,7 @@ public class ResponseMessage {
 		else
 			this.message = number + " ist keine Primzahl";
 
-		calcTime = System.currentTimeMillis() - time;
+		this.calcTime = System.currentTimeMillis() - time;
 	}
 	
 	public String getMessage() {
