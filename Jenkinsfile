@@ -12,10 +12,5 @@ pipeline {
         sh 'mvn -B -DskipTests clean package'
       }
     }
-    stage('Build docker image') {
-      steps {
-        sh 'docker build . -t dhbw-rest-app'
-      }
-    }
   }
 }
