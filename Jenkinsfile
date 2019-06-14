@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Build docker image') {
       steps {
-        sh 'sudo docker build . -t dhbw-rest-app'
+        sh 'docker build . -t dhbw-rest-app'
       }
     }
   }
